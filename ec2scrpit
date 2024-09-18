@@ -25,16 +25,32 @@ echo "
 <html lang=\"en\" class=\"h-100\">
 <head>
 <title>Details for EC2 instance</title>
+<style>
+    body {
+        background-color: #121212;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        color: #bb86fc;
+    }
+    p {
+        color: #ffffff;
+    }
+    img {
+        border: 2px solid #bb86fc;
+    }
+    div {
+        padding: 20px;
+    }
+</style>
 </head>
 <body>
 <div>
-<h1>AWS Instance Details</h1>
-<h1>Samurai Katana</h1>
+<h1>When TSA Keisha sees a Passportbro</h1>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTRyaGh3OXFicGpzMmE2MTUzeHl5dTdlOTZpeXpuMHlla2h6cHZtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3Oo8p762cyLnlMNRerm/giphy.webp" alt="Samurai Katana GIF">
 
-<br>
-# insert an image or GIF
-<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
-<br>
+
 
 <p><b>Instance Name:</b> $(hostname -f) </p>
 <p><b>Instance Private Ip Address: </b> ${local_ipv4}</p>
